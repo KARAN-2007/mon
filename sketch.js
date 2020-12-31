@@ -48,7 +48,7 @@ function setup() {
   
   monkey=createSprite(50,height-100,5,5);
   monkey.addAnimation("running",monkey_running);
-  monkey.scale=0.5;
+  monkey.scale=2;
   
   //monkey.debug=true;
   pause=createSprite(20,20,55,5)
