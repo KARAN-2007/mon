@@ -38,17 +38,17 @@ function setup() {
   bg=createSprite(width/2,height/2);
   bg.addImage(bgImage);
   
-  bg.scale=5;
+  bg.scale=3;
   
   
   ground=createSprite(width-300,height-20,600,5)
   ground.addImage(ground_image);
   
-  ground.scale=5;
+  ground.scale=3;
   
   monkey=createSprite(50,height-80,5,5);
   monkey.addAnimation("running",monkey_running);
-  monkey.scale=0.5;
+  monkey.scale=1;
   
   //monkey.debug=true;
   pause=createSprite(20,20,55,5)
